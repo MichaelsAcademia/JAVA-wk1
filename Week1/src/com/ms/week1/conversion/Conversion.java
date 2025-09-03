@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author Michael
- * Converting Values of Farhenheit to Celsius and Miles to Kilometers
+ * Values of Farhenheit to Celsius, Miles to Kilometers, and Litres to Gallons
  */
 
 public class Conversion {
@@ -32,6 +32,16 @@ public class Conversion {
 		double kilo = mile * 1.60934;
 		
 		System.out.printf("%f miles is %f kilometers%n", mile, kilo);
+		
+		// Litres to Gallons
+		
+		System.out.println("Please enter an amount of Litres: ");
+		
+		double litre = sc.nextDouble();
+		
+		double gallon = litre * 0.264172;
+		
+		System.out.printf("%f litres is %f gallons%n", litre, gallon);
 		
 		sc.close();
 	}

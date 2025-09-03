@@ -7,7 +7,7 @@ package com.ms.week1.grade;
 
 import java.util.Scanner;
 
-public class GradeConversion {
+public class GradeCalculation {
 
     public static void main(String[] args) {
     	 
